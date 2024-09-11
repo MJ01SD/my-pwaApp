@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+.custom-inputBox {
+    padding: 15px;
+    border: 1px solid rgb(203 213 225);
+    border-radius: 3px;
+    position: relative;
+}
+
+p {
+    position: absolute;
+    top: 15.667px;
+    left: 15.667px;
+    color: gray;
+}
+
+.custom-inputBox:hover {
+    border:1px solid rgb(100 116 139);
+}
+
+.custom-inputBox:focus {
+    outline: none;
+    border:2px solid #1976d2;
+    /* transform: translateY(-19px); */
+}
+
+p {
+    transform: translateY(-19px);
+}
